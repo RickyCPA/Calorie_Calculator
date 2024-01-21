@@ -32,7 +32,7 @@ with calorie_burn:
     with general:
         calc_details['Sex']=st.selectbox('Sex',['M','F'])
         calc_details['Age']=st.number_input('Age',0,130)
-        calc_details['Weight']=st.number_input('Weight (lb)',0.0)
+        calc_details['Weight']=st.number_input('Weight (lb)',0.1)
         #convert weight to kg for computation
         calc_details['Weight_kg'] = calc_details['Weight']*0.45359237
     with height:
